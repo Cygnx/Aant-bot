@@ -1,0 +1,439 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 213, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Aant Bot V.82"
+FONT 8, "Ms Shell Dlg 2", 400, 0, 0x0
+BEGIN
+    CONTROL         "[F1]",IDC_BAutoAttack,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,50,27,10
+    CONTROL         "[F3]",IDC_BUnlimitedAtt,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,82,27,10
+    LTEXT           "Char X",IDC_STATIC,20,188,49,8
+    CTEXT           "0",IDC_PCharX,73,188,30,8
+    LTEXT           "Char Y",IDC_STATIC,20,198,49,8
+    CTEXT           "0",IDC_PCharY,73,198,30,8
+    CONTROL         "[F2]",IDC_BAutoPot,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,67,27,10
+    CONTROL         "[F5]",IDC_BAuatoChat,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,112,27,10
+    CONTROL         "[F6]",IDC_BAutoClick,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,127,27,10
+    CONTROL         "[F8]",IDC_BAutoLogin,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,157,27,10
+    CONTROL         "[F7]",IDC_BItemFilter,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,142,27,10
+    PUSHBUTTON      "Auto Attack",IDC_SAutoAttack,41,50,58,10,BS_FLAT
+    PUSHBUTTON      "Auto Pot",IDC_SAutoPot,41,67,58,10,BS_FLAT
+    PUSHBUTTON      "Unlimited Attack",IDC_SUnlimitedAtt,41,82,58,10,BS_FLAT
+    PUSHBUTTON      "Auto Login",IDC_SAutoLogin,41,157,58,10,BS_FLAT
+    PUSHBUTTON      "Item Filter",IDC_SItemFilter,41,142,58,10,BS_FLAT
+    PUSHBUTTON      "Auto Click",IDC_SAutoClick,41,127,58,10,BS_FLAT
+    PUSHBUTTON      "Auto Chat",IDC_SAutoChat,41,112,58,10,BS_FLAT
+    CONTROL         "[F4]",IDC_BAutoCC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,97,27,10
+    PUSHBUTTON      "Auto CC",IDC_SAutoCC,41,97,58,10,BS_FLAT
+    LTEXT           "Mob",IDC_STATIC,106,188,49,8
+    CTEXT           "0",IDC_PMob,159,188,30,8
+    LTEXT           "People",IDC_STATIC,106,198,49,8
+    CTEXT           "0",IDC_PPl,159,198,30,8
+    CTEXT           "Attack Counter",IDC_STATIC,106,208,49,8
+    CTEXT           "0",IDC_PAttack,159,208,30,8
+    LTEXT           "Item",IDC_STATIC,106,218,49,8
+    CTEXT           "0",IDC_PItem,159,218,30,8
+    LTEXT           "Channel",IDC_STATIC,125,121,49,8
+    CTEXT           "0",IDC_PChannel,161,121,44,8
+    LTEXT           "Server",IDC_STATIC,125,105,49,8
+    LTEXT           "Map ID",IDC_STATIC,125,113,49,8
+    CTEXT           "0",IDC_PMap,161,113,44,8
+    LTEXT           "Made By Aant",IDC_STATIC,165,242,46,8
+    CTEXT           "0",IDC_PServer,161,105,44,8
+    CONTROL         "God Mode",IDC_BGodMode,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,134,51,56,10
+    CONTROL         "",IDC_BDemVac,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,134,77,16,10
+    CONTROL         "Tubi",IDC_BTubi,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,134,64,56,10
+    LTEXT           "MP",IDC_STATIC,20,218,49,8
+    CTEXT           "0",IDC_PMp,73,218,30,8
+    PUSHBUTTON      "Settings",IDC_BSettings,162,153,43,14,BS_FLAT
+    PUSHBUTTON      "CC Now",IDC_BCcNow,162,139,43,14,BS_FLAT
+    PUSHBUTTON      "Dem Vac",IDC_BVacs,145,77,43,9
+    LTEXT           "Hp ",IDC_STATIC,20,208,49,8
+    CONTROL         "",IDC_PHpBar,"msctls_progress32",PBS_SMOOTH | WS_BORDER,13,20,58,12
+    CONTROL         "",IDC_PMpBar,"msctls_progress32",PBS_SMOOTH | WS_BORDER,78,20,58,12
+    CONTROL         "",IDC_PExpBar,"msctls_progress32",PBS_SMOOTH | WS_BORDER,143,20,58,12
+    LTEXT           "HP:",IDC_STATIC,13,11,14,8
+    LTEXT           "MP:",IDC_STATIC,78,11,14,8
+    LTEXT           "EXP:",IDC_STATIC,143,11,14,8
+    LTEXT           "",IDC_ExpPer,158,11,39,8
+    CTEXT           "0",IDC_PHp,73,208,30,8
+    LTEXT           "",IDC_HpPer,28,11,39,8
+    LTEXT           "",IDC_MpPer,93,11,39,8
+    CTEXT           "",IDC_HpPer3,166,13,35,8
+    GROUPBOX        "Info",IDC_STATIC,6,177,200,61
+    GROUPBOX        "Hacks",IDC_STATIC,122,38,83,56
+    GROUPBOX        "Botting Features",IDC_STATIC,6,38,108,136
+    GROUPBOX        "Character",IDC_STATIC,6,3,200,34
+    CONTROL         "Check1",IDC_CStatBar,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,22,10,10
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 102, 151
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Auto Attack Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EAutoAttackMob,61,17,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Mob >=",IDC_STATIC,12,18,27,8
+    LTEXT           "Delay",IDC_STATIC,12,36,19,8
+    EDITTEXT        IDC_EAutoAttackDelay,61,35,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Auto Loot",IDC_BAutoLoot,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,115,45,10
+    CONTROL         "delay based ua",IDC_BAutoJump,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,130,46,10
+    EDITTEXT        IDC_EAutoAttackLoot,61,115,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EAutoAttackJump,61,130,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Auto Skill",IDC_BAutoSkill_1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,63,41,10
+    CONTROL         "Auto Skill",IDC_BAutoSkill_2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,77,41,10
+    EDITTEXT        IDC_EAutoAttackSkill_1,61,62,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EAutoAttackSkill_2,61,75,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Auto Skill",IDC_STATIC,5,52,91,45
+    GROUPBOX        "Auto Attack",IDC_STATIC,5,4,91,45
+    GROUPBOX        "Ect",IDC_STATIC,5,100,91,45
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 94, 41
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Auto Pot Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "HP(9)",IDC_BHP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,9,30,10
+    CONTROL         "MP(0)",IDC_BMP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,25,30,10
+    EDITTEXT        IDC_EAutoPotHP,49,8,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EAutoPotMP,49,23,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 111, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Auto CC Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "People Counter",IDC_BPplCounter,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,14,61,10
+    EDITTEXT        IDC_EAutoCCPeople,76,14,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Sleep Counter",IDC_BSleepCounter,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,46,61,10
+    CONTROL         "Attack Counter",IDC_BAttCounter,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,30,61,10
+    EDITTEXT        IDC_EAutoCCSleep,76,46,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EAutoCCAttack,76,30,26,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 142, 72
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Auto Chat Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EAutoChatTEXT,14,20,115,13,ES_AUTOHSCROLL
+    GROUPBOX        "Auto Chat",IDC_STATIC,4,4,135,61
+    LTEXT           "Delay",IDC_STATIC,15,49,19,8
+    EDITTEXT        IDC_EAutoChatDelay,40,46,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG7 DIALOGEX 0, 0, 106, 30
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Auto Click Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Delay",IDC_STATIC,17,9,19,8
+    EDITTEXT        IDC_EAutoClickDelay,44,7,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG8 DIALOGEX 0, 0, 127, 186
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Item Filter Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",WS_DISABLED | WS_BORDER | WS_TABSTOP,13,9,94,126
+    PUSHBUTTON      "Load List",IDC_BLoadList,7,166,39,14,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Save List",IDC_BSaveList,71,166,39,14,BS_FLAT | WS_DISABLED
+    EDITTEXT        IDC_EItemFilterID,17,140,49,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Add to list",IDC_BAddToList,74,140,36,14,WS_DISABLED
+    GROUPBOX        "Items to block.(Item ID's)",IDC_STATIC,1,0,119,140,WS_DISABLED
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 126, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Unlimited Attack Setting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EUnlimitedAtt_Delay,44,68,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EUnlimitedAtt_Attacks,44,53,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Attacks",IDC_BUnlimitedAtt_Attacks,"Button",BS_AUTORADIOBUTTON,6,55,34,10
+    CONTROL         "Delay",IDC_BUnlimitedAtt_Delay,"Button",BS_AUTORADIOBUTTON,6,70,29,10
+    GROUPBOX        "Methods",IDC_STATIC,2,43,121,48
+    CONTROL         "Pos 1",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,77,12,18,8
+    CONTROL         "Pos 2",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,97,12,18,8
+    GROUPBOX        "Chords",IDC_STATIC,67,1,56,40
+    CONTROL         "Item X UA",IDC_BUnlimitedAttItemUA,"Button",BS_AUTORADIOBUTTON,10,22,48,10
+    CONTROL         "Move UA",IDC_BUnlimitedAttMoveUA,"Button",BS_AUTORADIOBUTTON,10,12,45,10
+    GROUPBOX        "Type",IDC_STATIC,2,1,62,40
+    LTEXT           "ms",IDC_STATIC,88,71,10,8
+    EDITTEXT        IDC_SUnlimitedAtt_Pos_1,74,25,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SUnlimitedAtt_Pos_2,97,25,21,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG9 DIALOGEX 0, 0, 137, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Auto Login Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_ELoginId,64,10,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ELoginPassword,64,30,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Login",IDC_STATIC,27,15,18,8
+    LTEXT           "Password",IDC_STATIC,27,34,32,8
+    EDITTEXT        IDC_ELoginPin,64,50,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Pin",IDC_STATIC,27,53,10,8
+    EDITTEXT        IDC_EMapleDirAutoLogin,60,160,59,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Maple Directory:",IDC_STATIC,6,162,54,8,WS_DISABLED
+    PUSHBUTTON      "...",IDC_BBrowseToMapleAutoLogin,121,163,15,9,WS_DISABLED
+    CONTROL         "Pause/Resume Hacks while logging in",IDC_CPauseResumeHacksAutoLogin,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,6,136,134,10
+    CONTROL         "Re-Launch Maple when disconnected",IDC_CLaunchWhenDCAutoLogin,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,6,146,134,10
+    COMBOBOX        IDC_CWorldSelect,64,90,59,82,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Channel",IDC_STATIC,27,72,27,8
+    EDITTEXT        IDC_ELoginChannel,64,70,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_CCharSelect,64,108,27,82,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Char",IDC_STATIC,27,114,16,8
+    LTEXT           "World",IDC_STATIC,27,92,20,8
+END
+
+IDD_DVacs DIALOGEX 0, 0, 168, 34
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Vac Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EVacRangeValue,37,13,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Range:",IDC_STATIC,7,15,24,8,WS_DISABLED
+    CONTROL         "",IDC_SVacRange,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOOLTIPS | WS_DISABLED | WS_TABSTOP,59,11,70,21
+END
+
+IDD_DSettings DIALOGEX 0, 0, 162, 186
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Player Detection",IDC_CPlayerDetection,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,8,64,9
+    CONTROL         "Auto Save Settings",IDC_CAutoSaveSettings,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,8,139,85,9
+    EDITTEXT        IDC_ESettingsDir,67,162,68,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "...",IDC_BSettingsBrowse,140,166,15,9,WS_DISABLED
+    CONTROL         "Auto Load Settings",IDC_CAutoLoadSettings,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,8,150,85,9
+    LTEXT           "Settings Directory",IDC_STATIC,6,166,58,8,WS_DISABLED
+    EDITTEXT        IDC_EPlayerDetection_Allowed,92,7,27,12,ES_AUTOHSCROLL
+    LTEXT           "PPL",IDC_STATIC,127,9,12,8
+    CONTROL         "Auto Attack",IDC_CAutoAttack_Off,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,33,55,9
+    CONTROL         "AutoPot",IDC_CAutoPot_Off,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,44,55,9
+    CONTROL         "UnlimtedAttack",IDC_CUnlimitedAttack_Off,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,55,59,9
+    CONTROL         "Auto CC",IDC_CAutoCC_Off,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,66,55,9
+    CONTROL         "Auto Chat",IDC_CAutoChat_Off,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,77,55,9
+    CONTROL         "Auto Click",IDC_CAutoClick_Off,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,88,55,9
+    CONTROL         "Item Filter",IDC_CItemFilter_OFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,88,47,9
+    CONTROL         "Auto Login",IDC_CAutoLogin_OFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,77,50,9
+    GROUPBOX        "Hacks to turn Off",IDC_STATIC,7,20,132,85
+    CONTROL         "GodMode",IDC_CGodMode_OFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,44,45,9
+    CONTROL         "Tubi",IDC_CTubi_OFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,55,39,9
+    CONTROL         "Vac",IDC_CVAC_OFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,85,66,39,9
+    PUSHBUTTON      "Keys",IDC_BKEYCONFIG,15,113,126,14,WS_DISABLED
+    CONTROL         "Disable Hotkeys",IDC_DisableHotkeys,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,128,64,9
+END
+
+IDD_DKEYCONFIG DIALOGEX 0, 0, 111, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Key Configurations"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Attack",IDC_STATIC,13,18,22,8
+    LTEXT           "HP Pots",IDC_STATIC,13,98,26,8
+    LTEXT           "Loot",IDC_STATIC,13,34,15,8
+    LTEXT           "Mp Pots",IDC_STATIC,13,114,26,8
+    LTEXT           "Jump",IDC_STATIC,13,50,18,8
+    LTEXT           "Skill 1",IDC_STATIC,13,66,18,8
+    LTEXT           "Skill 2",IDC_STATIC,13,82,18,8
+    COMBOBOX        IDC_CAttack_Key,43,16,47,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CLoot_Key,43,32,47,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CJump_Key,43,48,47,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CSkill_1_Key,43,64,47,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CSkill_2_Key,43,80,47,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CHp_Key,43,96,47,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMp_Key,43,112,47,100,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        VERTGUIDE, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 238
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 95
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 87
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 35
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 104
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 99
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 23
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 113
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 27
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_DVacs, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 27
+    END
+
+    IDD_DSettings, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DKEYCONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 104
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
